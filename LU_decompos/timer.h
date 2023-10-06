@@ -16,7 +16,7 @@ struct timer
 	~timer()
 	{
 		time2 = clock();
-		std::cout << "Execution time of " << log << " is " << static_cast<double>(time2 - time1) / CLOCKS_PER_SEC << "\n";
+		std::cout << "Execution time of " << log << " is " << static_cast<double>(time2 - time1) / CLOCKS_PER_SEC << "\n-------\n";
 	}
 };
 
